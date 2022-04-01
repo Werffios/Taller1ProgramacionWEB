@@ -1,0 +1,2 @@
+# Taller1ProgramacionWEB
+Definir la estructura básica de un sitio web de un tema libre, el cuál debe cumplir con las siguientes características:  ·      El sitio tendrá una página principal y 3 páginas de otras secciones.  ·      Las páginas deben incluir por lo menos 3 etiquetas meta diferentes.  ·      Incluir en cada página encabezado, menú de navegación y pie.  ·      Incluir una lista numerada y una lista con viñetas.  ·      Incluir elementos multimedia (mínimo 6).  ·      Incluir una tabla.  ·      Incluir un formulario con al menos 5 campos.
