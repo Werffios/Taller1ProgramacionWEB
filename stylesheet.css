@@ -1,0 +1,50 @@
+body{
+  width:1080px;
+  margin:15px auto;
+  font-family: Arial, "MS Trebuchet", sans-serif;
+}
+p{
+  margin:0 0 20px 0;
+}
+p, li{
+  line-height:20px;
+}
+h1 {
+  text-align: center;
+}
+header#page-header{
+  width:100%;
+}
+header#page-header nav ul, #page-footer nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#page-header nav ul li, footer#page-footer nav ul li{
+  padding:0;
+  margin: 0 20px 0 0;
+  display:inline;
+}
+section#main-section{
+  float: left;
+  width: 74%;
+}
+section#main-section aside{
+  float: right;
+  width: 35%;
+  margin-left: 5%;
+  font-size: 20px;
+  line-height: 40px;
+}
+section#rightnav-section{
+  float: left;
+  width: 25%;
+}
+footer {
+  float: left;
+  width: 100%;
+}
+footer#page-footer {
+  text-align: center;
+  margin-top: 20px;
+}
