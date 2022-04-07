@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--la siguiente linea es para dirigir al archivo de estilos .CSS-->
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+    <header id="page-header">
+        <nav class="navbar navbar-dark bg-success" style="--bs-bg-opacity: .8;">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-web-dark.png" alt="" width="50" height="35"  class="d-inline-block align-text-center">
+                    Taller 1 Programación Web
+                </a>
+            </div>
+        </nav>
+    </header>
+    <nav class="navbar navbar-dark bg-success" style="--bs-bg-opacity: .8;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <a class="navbar-brand" href="multimedia.html">Multimedia</a>
+            <a class="navbar-brand" href="tabla.html">Tabla</a>
+            <a class="navbar-brand" href="formulario.html">Formulario</a>
+            <a class="navbar-brand" href="about.html">Acerca de nosotros</a>
+            <a class="navbar-brand" href="contact.html">Contactanos</a>
+        </div>
+    </nav>
+    <h1>este es un formulario</h1>
+    <p class="parrafo">para que todos ingresen datos sobre su informacion personal</p>
+    <form action="">
+        <ul>
+            <span>Ingrese nombres*</span>
+            <li>
+                <label for="nombres">
+                    <input type="text" name="nombres" id="nombres" placeholder="nombres" required>
+                </label>
+            </li>
+            <span>Ingrese sus apellidos*</span>
+            <li>
+                <label for="apellidos">
+                    <input type="text" name="apellidos" id="apellidos" placeholder="apellidos" required>
+                </label>
+            </li>
+            <span>¿Cuál es tu fecha de nacimiento?</span>
+            <li>
+                <label for="fecha-nacimiento">
+                    <input type="date" name="fechita" id="fecha-nacimiento" placeholder="fecha de nacimiento">
+                </label>
+            </li>
+            <span>Ingrese numero de celular*</span>
+            <li>
+                <label for="celular"> 
+                    <input type="text" name="celular" id="celular" placeholder="celular" required>
+                </label>
+            </li>
+            <span>Ingrese su email</span>
+            <li>
+                <label for="email"> 
+                    <input id="emailAddress" name="email" type="email" placeholder="example@mail.com">
+                </label>
+            </li>
+            <span>¿Que carrera estudia?</span>
+            <li>
+                <label for="carrera-estudia">
+                    <input type="text" name="carrera-estudia" id="carrera-estudia" placeholder="lo que estudia">
+                </label>
+            </li>
+        </ul>
+        <!--name es el nombre de la variable donde almacenare lo que llega en el input-->
+        <!--el for es para al hacer click en el label, va a ir al input llamado por el for-->
+        <!--placeholder es cuadro dentro del input-->
+        <!--lo que sigue es un boton-->
+        <input type="submit" id="">
+    </form>
+    <footer>
+        <ul>
+            Creado y Editado Por:
+            <li>Julio Cesar Fuelagan Carlosama</li>
+            <li>Nicolas Alonso Suarez Rodriguez</li>
+            <li>Luis Felipe Pulgar Pérez</li>
+            <li>Mateo Ramírez Marín</li>
+        </ul>
+            <p>
+                Copyright 2022.
+            </p>
+          <a href="mailto:jfuelagan@unal.edu.co;nasuarezro@unal.edu.co?cc=nasuarezro@unal.edu.co&bcc=jfuelagan@unal.edu.co.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+            Haz clik aqui para enviarnos un correo electrónico dandonos tu sugerencia.
+          </a>
+      </footer>
+</body>
+</html>
